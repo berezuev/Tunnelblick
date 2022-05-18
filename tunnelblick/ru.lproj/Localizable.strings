@@ -875,7 +875,7 @@
 "  • Be installed in /Applications as Tunnelblick\n" = "  • быть установлен в папке /Applications, имя файла должно быть Tunnelblick\n";
 
 /* Window text */
-"  • Change ownership and permissions of the program to secure it\n" = "  • Смена владельцев программых файлов и прав доступа для увеличения её безопасности\n";
+"  • Change ownership and permissions of the program to secure it\n" = "  • Смените владельцев программных файлов и прав доступа для увеличения её безопасности\n";
 
 /* Window text; appears after an update and will be prefixed by 'Tunnelblick needs to:' */
 "  • Complete the update\n" = "  • Завершить обновление\n";
@@ -956,7 +956,7 @@
 "'%@' appears to be a file encoded with UTF-16. All OpenVPN-related files must be plain text or UTF-8 files" = "'%@' похож на файл в кодировке UTF-16. Все файлы для OpenVPN, должны быть простым текстом или в кодировке UTF-8";
 
 /* Window text */
-"'%@' at line %u was not terminated properly" = "'%1$@' на строке %2$u не был завершённ корректно";
+"'%@' at line %u was not terminated properly" = "'%1$@' на строке %2$u не был завершён корректно";
 
 /* Window text */
 "'%@' does not have any credentials (private key or username and password) stored in the Keychain." = "У конфигурации '%@' нет никаких учётных данных (закрытого ключа или имени пользователя и пароля) сохранённых в Связке ключей.";
@@ -1049,10 +1049,10 @@
 "After %.1f seconds, gave up trying to fetch IP address information.\n\nTunnelblick will not check that this computer's apparent IP address changes when %@ is connected.\n\n" = "После %1$.1f секунд оставить попытки получить IP адрес.\n\nTunnelblick не будет проверять, изменился ли адрес компьютера, когда %2$@ подключён.\n\n";
 
 /* Window text */
-"After connecting to %@, DNS does not appear to be working.\n\nThis may mean that your VPN is not configured correctly.\n\n" = "Похоже, что DNS не работает после подключения к %@,.\n\nЭто может означать, что ваше VPN соединение настроенно некорректно.\n\n";
+"After connecting to %@, DNS does not appear to be working.\n\nThis may mean that your VPN is not configured correctly.\n\n" = "Похоже, что DNS не работает после подключения к %@,.\n\nЭто может означать, что ваше VPN соединение настроено некорректно.\n\n";
 
 /* Window text */
-"After connecting to %@, the Internet does not appear to be reachable.\n\nThis may mean that your VPN is not configured correctly.\n\n" = "Похоже, что интернет стал недоступен после подключения к %@.\n\nЭто может означать, что ваше VPN соединение настроенно некорректно.\n\n";
+"After connecting to %@, the Internet does not appear to be reachable.\n\nThis may mean that your VPN is not configured correctly.\n\n" = "Похоже, что интернет стал недоступен после подключения к %@.\n\nЭто может означать, что ваше VPN соединение настроено некорректно.\n\n";
 
 /* Window text */
 "All OpenVPN processes have quit" = "Все процессы OpenVPN завершены";
@@ -1316,7 +1316,7 @@
 "File '%@' contains one or more NUL characters." = "Файл '%@' содержит один или несколько NUL символов.";
 
 /* Window text */
-"File '%@' ends with a backslash, which is not allowed." = "Файл '%@' заканчивается обратным слешем \\ — это не допускается.";
+"File '%@' ends with a backslash, which is not allowed." = "Недопустимо заканчивать название файла '%@' обратным слешем \\.";
 
 /* Window text */
 "File '%@' has an extension which is not known to Tunnelblick." = "Файл '%@' имеет неизвестное Tunnelblick расширение.";
@@ -1436,10 +1436,10 @@
 "No 'TBPackageVersion' in %@" = "Отсутствует 'TBPackageVersion' в %@";
 
 /* Window text */
-"No path to easy-rsa. The most likely cause is a problem with the 'easy-rsaPath' preference" = "Нет пути к easy-rsa. Скорее всего проблема в параметре'easy-rsaPath'";
+"No path to easy-rsa. The most likely cause is a problem with the 'easy-rsaPath' preference" = "Нет пути к easy-rsa. Скорее всего проблема в параметре 'easy-rsaPath'";
 
 /* Window text */
-"Non-array value for '%@' in %@" = "Значение для '%1$@' в %2$@ не явялется массивом (Non-array)";
+"Non-array value for '%@' in %@" = "Значение для '%1$@' в %2$@ не является массивом (Non-array)";
 
 /* Window text */
 "Non-boolean value for '%@' in %@" = "Значение для '%1$@' в %2$@ не является булевым (Non-boolean)";
@@ -1478,7 +1478,7 @@
 "One or more OpenVPN processes are running but are unknown to Tunnelblick. If you are not running OpenVPN separately from Tunnelblick, this usually means that an earlier launch of Tunnelblick was unable to shut them down properly and you should terminate them. They are likely to interfere with Tunnelblick's operation.\n\nThey can be terminated in the 'Activity Monitor' application.\n\n" = "Один или несколько процессов OpenVPN запущены, но не определены Tunnelblick. Если вы не запускали OpenVPN отдельно, то это обычно означает, что предыдущий запуск Tunnelblick не смог корректно прекратить работу этих процессов и вам следует принудительно завершить их. Скорее всего они препятствуют работоспособности Tunnelblick.\n\nОни могут быть принудительно завершены в приложении  'Мониторинг системы'.\n\n";
 
 /* Window text */
-"One or more VPN configurations that are being installed include OpenVPN options that were not recognized by Tunnelblick. That may be an error in the configuration or an error in Tunnelblick, or the configurations might include programs which will run as root when you connect to a VPN. Such programs would be able to TAKE COMPLETE CONTROL OF YOUR COMPUTER.\n\nYOU SHOULD NOT INSTALL THESE CONFIGURATIONS UNLESS YOU TRUST THEIR AUTHOR.\n\nDo you trust the author of the configurations and wish to install them?\n\n" = "В одной или нескольких утснавливаемых конфигураций VPN присутствуют параметры OpenVPN, которые не были распознаны Tunnelblick, либо же конфигурации включают в себя приложения, которые во время подключения к VPN будут запускаться под правами суперпользователя root. Такие приложения СМОГУТ ПОЛУЧИТЬ ПОЛНЫЙ КОНТРОЛЬ НАД ВАШИМ КОМПЬЮТЕРОМ.\n\nНЕ УСТАНАВЛИВАЙТЕ ЭТИ КОНФИГУРАЦИИ, ЕСЛИ ВЫ НЕ ДОВЕРЯЕТЕ И АВТОРУ.\n\nВы доверяете автору этих конфигураций и желаете установить их?\n\n";
+"One or more VPN configurations that are being installed include OpenVPN options that were not recognized by Tunnelblick. That may be an error in the configuration or an error in Tunnelblick, or the configurations might include programs which will run as root when you connect to a VPN. Such programs would be able to TAKE COMPLETE CONTROL OF YOUR COMPUTER.\n\nYOU SHOULD NOT INSTALL THESE CONFIGURATIONS UNLESS YOU TRUST THEIR AUTHOR.\n\nDo you trust the author of the configurations and wish to install them?\n\n" = "В одной или нескольких устанавливаемых конфигураций VPN присутствуют параметры OpenVPN, которые не были распознаны Tunnelblick, либо же конфигурации включают в себя приложения, которые во время подключения к VPN будут запускаться под правами суперпользователя root. Такие приложения СМОГУТ ПОЛУЧИТЬ ПОЛНЫЙ КОНТРОЛЬ НАД ВАШИМ КОМПЬЮТЕРОМ.\n\nНЕ УСТАНАВЛИВАЙТЕ ЭТИ КОНФИГУРАЦИИ, ЕСЛИ ВЫ НЕ ДОВЕРЯЕТЕ И АВТОРУ.\n\nВы доверяете автору этих конфигураций и желаете установить их?\n\n";
 
 /* Window text */
 "One or more VPN configurations that are being installed include programs which will run as root when you connect to a VPN. These programs are part of the configuration and are not part of the Tunnelblick application. They are able to TAKE COMPLETE CONTROL OF YOUR COMPUTER.\n\nYOU SHOULD NOT INSTALL THESE CONFIGURATIONS UNLESS YOU TRUST THEIR AUTHOR.\n\nDo you trust the author of the configurations and wish to install them?\n\n" = "Одна или несколько устанавливаемых конфигураций VPN включают в себя приложения, которые будут запущены с правами суперпользователя, когда вы подключитесь к VPN. Эти приложения являются частью конфигурации и не имеют отношения к приложению Tunnelblick. У них будет возможность получить ПОЛНЫЙ КОНТРОЛЬ НАД КОМПЬЮТЕРОМ.\n\nНАСТОЯТЕЛЬНО НЕ РЕКОМЕНДУЕТСЯ УСТАНАВЛИВАТЬ ИХ, ЕСЛИ ВЫ НЕ ДОВЕРЯЕТЕ ИХ АВТОРУ.\n\nВы доверяете автору конфигураций и действительно желаете их установить?\n\n";
@@ -1505,7 +1505,7 @@
 "One or more problems were detected:\n\n%@" = "Были выявлены некоторые проблемы:\n\n%@";
 
 /* Window text */
-"Only a Tunnelblick VPN Configuration (.tblk) can start when the computer starts." = "Только конфигуация Tunnelblick VPN (.tblk) может стартовать при запуске компьютера.";
+"Only a Tunnelblick VPN Configuration (.tblk) can start when the computer starts." = "Только конфигурация Tunnelblick VPN (.tblk) может стартовать при запуске компьютера.";
 
 /* Window text. The first and second '%@' will each be replaced by a version number such as '3.2'. The third '%@' will be replaced by the name of a configuration. The fourth '%@' will be replaced by a list of names of OpenVPN options and when each was deprecated and removed. */
 "OpenVPN %@ will be used to connect this configuration instead of OpenVPN %@.\n\nThe OpenVPN configuration file for '%@' contains these OpenVPN options:\n\n%@\nYou should update the configuration so it can be used with modern versions of OpenVPN." = "OpenVPN %1$@ будет использоваться для подключения этой конфигурации вместо OpenVPN %2$@.\n\nФайл конфигурации OpenVPN для '%3$@' содержит следующие параметры OpenVPN:\n\n%4$@\nВам следует обновить конфигурацию, чтобы ее можно было использовать с современными версиями OpenVPN.";
